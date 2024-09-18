@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "344915601574",
+    "project_id": "gabriel-b-diario-de-viagens",
+    "storage_bucket": "gabriel-b-diario-de-viagens.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:344915601574:android:eaec02e42c46555080ac67",
+        "android_client_info": {
+          "package_name": "io.github.ninjabitroom.diario_de_viagens"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHhO_NwkeVcEz-26ut6zJG_X3cM32BE_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
