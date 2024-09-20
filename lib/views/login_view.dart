@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 class LoginView extends GetView {
+  const LoginView({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -32,13 +34,18 @@ class LoginView extends GetView {
               ),
             ),
             const SizedBox(
-              height: 8,
+              height: 12,
             ),
             FilledButton(
-                onPressed: () {
-                  Get.offAll(const CountryListView());
-                },
-                child: const Text('Fazer login'))
+              onPressed: () {
+                Get.offAll(const CountryListView());
+              },
+              child: const Text('Fazer login'),
+            ),
+            const SizedBox(
+              height: 4,
+            ),
+            TextButton(onPressed: () {}, child: const Text('Fazer Cadastro'))
           ],
         ),
       ),
